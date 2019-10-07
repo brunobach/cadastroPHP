@@ -18,7 +18,7 @@
     <div class="container jumbotron w-25">
         <h1 class="display-4">Cadastre-se</h1>
         <hr class="my-4">
-        <form action="valida_login.php" method="POST" onSubmit="return valida_campos()">
+        <form action="valida_cadastro.php" method="POST" onSubmit="return valida_campos()">
 
             <div class="form-group">
                 <label for="inputAddress">Seu e-mail</label>
@@ -56,9 +56,9 @@
           
             <div class="form-group">
                 <label for="inputSexo">Sexo</label>
-                <select class="form-control" id="inputSexo">
-                    <option>Masculino</option>
-                    <option>Feminino</option>
+                <select class="form-control" name="sexo" id="inputSexo">
+                    <option>masculino</option>
+                    <option>feminino</option>
                 </select>
 
             </div>
